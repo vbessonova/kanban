@@ -231,7 +231,7 @@ class App extends PureComponent {
     const {value, arrBacklog, arrReady, arrProgress, arrFinished, arrLogin} = this.state;
     const activeTask = arrBacklog["task"].length > 0 && arrBacklog["task"].length ? arrBacklog["task"].length : 0;
     const finishedTask = arrFinished["task"].length > 0 && arrFinished["task"].length ? arrFinished["task"].length : 0;
-
+    console.log('1', '2', '3')
     return (
       <Router>
         <Switch>
