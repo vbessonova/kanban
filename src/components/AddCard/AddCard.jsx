@@ -17,7 +17,7 @@ const AddCard = ({
   isShowDropdown,
   }) => (
     <>
-      {console.log('test', '7test', '88987', 999999, 899)}
+      {console.log('test', '7test', '88987', 999999, 899, 'kjk')}
       {isShowForm ?
         <form onSubmit={onSubmitValueInInput} className="form" onClick={onClickForm}>
           <input
